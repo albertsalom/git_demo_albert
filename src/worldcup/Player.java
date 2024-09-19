@@ -14,8 +14,4 @@ public class Player extends Person {
         public void passBall() {
                 System.out.println("plassing to Vicente :)");
         }
-        /* Una nova funció super interesant */
-        public void kickBall() {
-                System.out.println("kicking the ball soo strong");
-        }
 }
