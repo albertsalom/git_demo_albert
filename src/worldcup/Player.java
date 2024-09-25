@@ -11,14 +11,5 @@ package worldcup;
 public class Player extends Person {
         String position;
 
-        public void passBall() {
-                System.out.println("plassing to Vicente :)");
-        }
-        public boolean injuried(boolean injury) {
-        	if (injury==true) {
-				return true;
-			}else {
-				return false;
-			}
-        }
+        Boolean capitan;
 }
